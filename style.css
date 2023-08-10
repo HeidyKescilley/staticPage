@@ -7,15 +7,69 @@
   width: 50px;
 }
 
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
 .iconeList {
-  width: 50px;
+  display: flex;
+  width: 30px;
+  padding: 25px;
 }
 
 .logoFooter {
   width: 50px;
+  padding: 25px;
 }
 
 .footer {
   height: 300px;
   background-color: #333333;
+  text-align: center;
+}
+
+.imgContent {
+  width: 557px;
+}
+
+.content {
+  background-color: #eeeef0;
+}
+
+.socialMedias {
+  width: 18px;
+  padding: 10px;
+}
+
+.socialMediasContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.navFooter {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.linkNavFooter {
+  display: flex;
+  color: #adadad;
+  padding: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navFooterList {
+  list-style: none;
+  display: flex;
+}
+
+.designFooter {
+  color: #adadad;
 }
