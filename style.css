@@ -12,6 +12,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  margin-left: 350px;
+  margin-right: 350px;
 }
 
 .iconeList {
@@ -72,4 +74,61 @@ a {
 
 .designFooter {
   color: #adadad;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h3 {
+  font-family: "PT Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.content h1 {
+  font-family: "Roboto Condensed", "sans-serif";
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+  color: #332f29;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-family: "Open Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #111;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.content a {
+  font-family: "PT Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+}
+
+.button {
+  background-color: #000000;
+}
+
+.textContent {
+  margin-left: 118px;
+  padding-left: 35px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 406px;
 }
